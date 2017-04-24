@@ -8,7 +8,7 @@ bs.init({
         './app/**/*.html',
         './backstop_data/bitmaps_reference/*.png'
     ],
-    port: 8080,
+    port: 7000,
     rewriteRules: [
         {
             match: /{{header}}/g,

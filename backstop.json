@@ -1,0 +1,165 @@
+{
+  "viewports": [
+    {
+      "name": "phone",
+      "width": 500,
+      "height": 580
+    }
+  ],
+  "scenarios": [
+    {
+      "label": "Boilerplate: Code sections",
+      "url": "http://localhost:8081/app/css-kata-boilerplate.html",
+      "selectors": [
+        "#boilerplate-sections"
+      ],
+      "misMatchThreshold" : 0.1
+    },
+
+    {
+      "label": "Typography 101: Body text",
+      "url": "http://localhost:8081/app/typography-101.html",
+      "selectors": [
+        "#typography-body-font"
+      ],
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Typography 101: Headings",
+      "url": "http://localhost:8081/app/typography-101.html",
+      "selectors": [
+        "#typography-headings"
+      ],
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Typography 101: Faux Headings",
+      "url": "http://localhost:8081/app/typography-101.html",
+      "selectors": [
+        "#typography-faux-headings"
+      ],
+      "misMatchThreshold" : 0.1
+    },
+
+
+    {
+      "label": "Display: Stack",
+      "url": "http://localhost:8081/app/display-inline-block.html",
+      "selectors": [
+        "#display-stack-images"
+      ],
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Display: Align",
+      "url": "http://localhost:8081/app/display-inline-block.html",
+      "selectors": [
+        "#display-align-images"
+      ],
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Display: Align and resize",
+      "url": "http://localhost:8081/app/display-inline-block.html",
+      "selectors": [
+        "#display-align-resize-images"
+      ],
+      "misMatchThreshold" : 0.1
+    },
+
+    {
+      "label": "Box model: ",
+      "url": "http://localhost:8081/app/box-model.html",
+      "selectors": [
+        "#box-model-simple-box"
+      ],
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Box model: ",
+      "url": "http://localhost:8081/app/box-model.html",
+      "selectors": [
+        "#box-model-simple-border-box"
+      ],
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Box model: ",
+      "url": "http://localhost:8081/app/box-model.html",
+      "selectors": [
+        "#box-model-simple-border-margin-box"
+      ],
+      "misMatchThreshold" : 0.1
+    },
+
+    {
+      "label": "Shapes: Boxes",
+      "url": "http://localhost:8081/app/css-shapes-101.html",
+      "selectors": [
+        "#box-align"
+      ],
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Shapes: Circles",
+      "url": "http://localhost:8081/app/css-shapes-101.html",
+      "selectors": [
+        "#circle-align"
+      ],
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Shapes: Circle Outlines",
+      "url": "http://localhost:8081/app/css-shapes-101.html",
+      "selectors": [
+        "#circle-outlines-align"
+      ],
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Shapes: Combo",
+      "url": "http://localhost:8081/app/css-shapes-101.html",
+      "selectors": [
+        "#shapes-align"
+      ],
+      "misMatchThreshold" : 0.1
+    },
+
+    {
+      "label": "Position: Setup",
+      "url": "http://localhost:8081/app/positioning.html",
+      "selectors": [
+        "#position-setup"
+      ],
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Position: Setup",
+      "url": "http://localhost:8081/app/positioning.html",
+      "selectors": [
+        "#position-bottom"
+      ],
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Position: Setup",
+      "url": "http://localhost:8081/app/positioning.html",
+      "selectors": [
+        "#position-override"
+      ],
+      "misMatchThreshold" : 0.1
+    }
+
+  ],
+  "paths": {
+    "bitmaps_reference": "backstop_data/bitmaps_reference",
+    "bitmaps_test": "backstop_data/bitmaps_test",
+    "casper_scripts": "backstop_data/casper_scripts",
+    "html_report": "backstop_data/html_report",
+    "ci_report": "backstop_data/ci_report"
+  },
+  "casperFlags": [],
+  "engine": "phantomjs",
+  "report": ["browser"],
+  "debug": true
+}

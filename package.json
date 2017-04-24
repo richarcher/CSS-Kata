@@ -1,0 +1,19 @@
+{
+  "name": "css-kata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./server.js",
+    "test": "node ./test.js --test",
+    "admin": "node ./admin.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "devDependencies": {
+    "backstopjs": "^2.6.11",
+    "browser-sync": "^2.18.8",
+    "del": "^2.2.2"
+  }
+}

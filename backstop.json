@@ -14,9 +14,34 @@
       "selectors": [
         "#boilerplate-sections"
       ],
-      "requireSameDimensions" : false,
       "misMatchThreshold" : 0.1
     },
+
+    {
+      "label": "Typography 101: Body text",
+      "url": "http://localhost:7000/app/typography-101.html",
+      "selectors": [
+        "#typography-body-font"
+      ],
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Typography 101: Headings",
+      "url": "http://localhost:7000/app/typography-101.html",
+      "selectors": [
+        "#typography-headings"
+      ],
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Typography 101: Faux Headings",
+      "url": "http://localhost:7000/app/typography-101.html",
+      "selectors": [
+        "#typography-faux-headings"
+      ],
+      "misMatchThreshold" : 0.1
+    },
+
 
     {
       "label": "Display: Stack",
@@ -24,7 +49,6 @@
       "selectors": [
         "#display-stack-images"
       ],
-      "requireSameDimensions" : false,
       "misMatchThreshold" : 0.1
     },
     {
@@ -33,7 +57,6 @@
       "selectors": [
         "#display-align-images"
       ],
-      "requireSameDimensions" : false,
       "misMatchThreshold" : 0.1
     },
     {
@@ -42,7 +65,6 @@
       "selectors": [
         "#display-align-resize-images"
       ],
-      "requireSameDimensions" : false,
       "misMatchThreshold" : 0.1
     },
 
@@ -52,7 +74,6 @@
       "selectors": [
         "#box-model-simple-box"
       ],
-      "requireSameDimensions" : false,
       "misMatchThreshold" : 0.1
     },
     {
@@ -61,7 +82,6 @@
       "selectors": [
         "#box-model-simple-border-box"
       ],
-      "requireSameDimensions" : false,
       "misMatchThreshold" : 0.1
     },
     {
@@ -70,7 +90,6 @@
       "selectors": [
         "#box-model-simple-border-margin-box"
       ],
-      "requireSameDimensions" : false,
       "misMatchThreshold" : 0.1
     },
 
@@ -80,7 +99,6 @@
       "selectors": [
         "#box-align"
       ],
-      "requireSameDimensions" : false,
       "misMatchThreshold" : 0.1
     },
     {
@@ -89,7 +107,6 @@
       "selectors": [
         "#circle-align"
       ],
-      "requireSameDimensions" : false,
       "misMatchThreshold" : 0.1
     },
     {
@@ -98,7 +115,6 @@
       "selectors": [
         "#circle-outlines-align"
       ],
-      "requireSameDimensions" : false,
       "misMatchThreshold" : 0.1
     },
     {
@@ -107,7 +123,6 @@
       "selectors": [
         "#shapes-align"
       ],
-      "requireSameDimensions" : false,
       "misMatchThreshold" : 0.1
     },
 
@@ -117,7 +132,6 @@
       "selectors": [
         "#position-setup"
       ],
-      "requireSameDimensions" : false,
       "misMatchThreshold" : 0.1
     },
     {
@@ -126,7 +140,6 @@
       "selectors": [
         "#position-bottom"
       ],
-      "requireSameDimensions" : false,
       "misMatchThreshold" : 0.1
     },
     {
@@ -135,7 +148,6 @@
       "selectors": [
         "#position-override"
       ],
-      "requireSameDimensions" : false,
       "misMatchThreshold" : 0.1
     }
 

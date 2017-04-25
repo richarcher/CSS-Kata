@@ -3,3 +3,12 @@
   src: url("./assets/OpenSans-Regular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal; }
+
+body {
+  background-color: #efefef;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.25em;
+  font-weight: normal;
+  letter-spacing: -0.01em;
+}
+
